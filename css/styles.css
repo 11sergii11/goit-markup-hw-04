@@ -121,32 +121,29 @@ a {
 .heder-contacts-link + .heder-contacts-link {
   margin-left: 50px;
 }
-/*.tel::before,
-.tel::after {
+.tel::before {
+/* .tel::after  */
   content: '';
   display: inline-block;
-  width: 10px;
+  width: 6px;
   height: 10px;
   background-size: contain;
 }
-.tel::before,
-.tel::after {
+.tel::before {
   margin-right: 6px;
-  background-image: url(/envelope.svg);
+  background-image: url(../images/smartphone.svg);
 }
-.mail::before,
-.mail::after {
+.mail::before {
   content: '';
   display: inline-block;
-  width: 10px;
-  height: 10px;
+  width: 8px;
+  height: 6px;
   background-size: contain;
 }
-.mail::before,
-.mail::after {
+.mail::before {
   margin-right: 6px;
-  background-image: url("https://cdn2.iconfinder.com/data/icons/avatars-60/5985/34-Father-512.png");
- } */
+  background-image: url(../images/envelope.svg);
+ }
 .market {
   background-color: var(--text-main-color);
   padding-top: 200px;
