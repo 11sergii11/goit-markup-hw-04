@@ -121,6 +121,32 @@ a {
 .heder-contacts-link + .heder-contacts-link {
   margin-left: 50px;
 }
+/*.tel::before,
+.tel::after {
+  content: '';
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  background-size: contain;
+}
+.tel::before,
+.tel::after {
+  margin-right: 6px;
+  background-image: url(/envelope.svg);
+}
+.mail::before,
+.mail::after {
+  content: '';
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  background-size: contain;
+}
+.mail::before,
+.mail::after {
+  margin-right: 6px;
+  background-image: url("https://cdn2.iconfinder.com/data/icons/avatars-60/5985/34-Father-512.png");
+ } */
 .market {
   background-color: var(--text-main-color);
   padding-top: 200px;
