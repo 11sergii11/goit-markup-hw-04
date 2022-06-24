@@ -34,7 +34,7 @@ p {
 }
 img {
   display: block;
-  min-width: 100%;
+  /* min-width: 100%; */
   height: auto;
 }
 a {
@@ -122,33 +122,48 @@ a {
   margin-left: 50px;
 }
 .tel::before {
-/* .tel::after  */
   content: '';
-  display: inline-block;
-  width: 6px;
-  height: 10px;
-  background-size: contain;
-}
-.tel::before {
+  /* display: inline-block; */
+  display: inline-flex;
+  justify-content: center;
+  /* align-items: center; */
+  width: 10px;
+  height: 16px;
   margin-right: 6px;
+  background-size: contain;
+  background-repeat: no-repeat;
   background-image: url(../images/smartphone.svg);
 }
-.mail::before {
-  content: '';
-  display: inline-block;
-  width: 8px;
-  height: 6px;
-  background-size: contain;
+
+.tel:hover::before {
+  background-color: #2196f3;
 }
 .mail::before {
+  content: '';
+  display: inline-flex;
+  width: 16px;
+  height: 12px;
   margin-right: 6px;
+  background-size: contain;
+  background-repeat: no-repeat;
   background-image: url(../images/envelope.svg);
- }
+}
+.mail:hover::before {
+  background-color: #2196f3;
+}
 .market {
   background-color: var(--text-main-color);
   padding-top: 200px;
   padding-bottom: 200px;
-  /* width: 1600px; */
+}
+.wrapper {
+  display: flex;
+  /* justify-content: center; */
+  margin-left: auto;
+  margin-right: auto;
+  background: url(../images/img\ overlay.svg), url(../images/idias\ for\ bisenes.jpg);
+  background-repeat: no-repeat;
+  max-width: 1600px;
 }
 
 .solution {
@@ -200,6 +215,19 @@ a {
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
+.feature{
+
+  padding: 25px 0;
+  margin-bottom: 30px;
+  background-color: var(--background-second-color);
+  border-radius: 4px;
+}
+.feature-img{
+  margin-left: auto;
+  margin-right: auto;
+  width: 70px;
+}
+
 .fors {
   display: flex;
 }
