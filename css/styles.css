@@ -374,6 +374,10 @@ margin-right: 0px;
   display: flex;
   justify-content: center;
   fill: var(--text-sekond-color);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  align-items: center;
   width: 20px;
   height: 20px;
 }
@@ -475,7 +479,6 @@ margin-right: 0px;
 .adress:focus {
   color: var(--main-brand-color);
 }
-/*  */
 
 /*-- иконки футера-- */
 
@@ -491,7 +494,6 @@ margin-right: 0px;
   line-height: 16px;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-
   color: #ffffff;
 }
 .footer-soc-item {
@@ -502,8 +504,6 @@ margin-right: 0px;
 }
 .footer-soc-link {
   display: flex;
-  /* justify-content: center; */
-  /* align-items: center; */
   width: 100%;
   height: 100%;
   border-radius: 50%;
