@@ -340,6 +340,9 @@ a {
 }
 .soshial-links-img {
   fill: #212121;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 .icons {
   fill: #212121;
