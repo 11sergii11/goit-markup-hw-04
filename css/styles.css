@@ -338,10 +338,10 @@ a {
   color: var(--text-sekond-color);
   margin-top: 10px;
 }
-.soshial-links-img{
+.soshial-links-img {
   fill: #212121;
 }
-.icons{
+.icons {
   fill: #212121;
 }
 .soshial-links-img:hover {
@@ -365,6 +365,9 @@ a {
   margin-right: auto;
 }
 .klients {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 170px;
   height: 92px;
   margin-right: 30px;
@@ -380,12 +383,12 @@ a {
 }
 .client-icon {
   fill: #afb1b8;
-  }
-  .item-client-link {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
+}
+.item-client-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
 .grafit {
   background-color: var(--text-main-color);
