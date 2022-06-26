@@ -353,10 +353,15 @@ a {
   color: #2196f3;
   background-color: var(--buttom-second-color);
 }
+.soshial-list{
+display: flex;
+margin: 0;
+padding: 0;
+}
 .soshial-links {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
+  /* display: flex; */
+  /* align-items: center; */
+  /* justify-content: space-between; */
   padding-top: 16px;
   padding-left: 32px;
   padding-right: 32px;
