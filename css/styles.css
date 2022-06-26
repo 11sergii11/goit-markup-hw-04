@@ -338,6 +338,12 @@ a {
   color: var(--text-sekond-color);
   margin-top: 10px;
 }
+.soshial-links-img{
+  fill: #212121;
+}
+.icons{
+  fill: #212121;
+}
 .soshial-links-img:hover {
   width: 44px;
   border-radius: 50%;
@@ -371,6 +377,11 @@ a {
 }
 .klients:hover {
   border: 1px solid var(--buttom-second-color);
+}
+.client-icon {
+  fill: #afb1b8;
+  transition-property: fill;
+  
 }
 
 .grafit {
