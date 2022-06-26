@@ -384,6 +384,9 @@ a {
 .client-icon {
   fill: #afb1b8;
 }
+.client-icon:hover{
+  fill: var(--main-brand-color);
+}
 .item-client-link {
   display: flex;
   justify-content: center;
