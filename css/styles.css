@@ -380,9 +380,12 @@ a {
 }
 .client-icon {
   fill: #afb1b8;
-  transition-property: fill;
-  
-}
+  }
+  .item-client-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 
 .grafit {
   background-color: var(--text-main-color);
