@@ -340,9 +340,9 @@ a {
 }
 .soshial-links-img {
   fill: #212121;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
+  /* display: flex; */
+  /* align-items: center; */
+  /* justify-content: space-between; */
 }
 .icons {
   fill: #212121;
@@ -366,6 +366,8 @@ padding: 0;
   padding-left: 32px;
   padding-right: 32px;
 }
+
+
 .klients-list {
   display: flex;
   justify-content: center;
