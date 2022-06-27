@@ -338,55 +338,41 @@ a {
   color: var(--text-sekond-color);
   margin-top: 10px;
 }
-/*.team-box-info{
-  display: flex;
- } */
+/* ССЫЛКИ НА СОЦ СЕТИ */
+
 .soshial-list {
   display: flex;
   align-items: center;
   justify-content: center;
   margin-top: 16px;
 }
-.soshial-list:last-child {
-margin-right: 0px;
-}
 .soshial-links-img {
+  margin-right: 10px;
+ }
+.soshial-links-img:last-child {
+  margin-right: 0px;
+}
+.links-img {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-right: 10px;
   width: 44px;
   height: 44px;
   border-radius: 50%;
   background-color: var(--main-body-color);
 }
-.soshial-links-img:last-child {
-  margin-right: 0px;
-  }
-.links-img {
-  display: flex;
-  background-color: var(--main-body-color);
-}
-.links-img:hover {
+.links-img:hover,
+.links-img:focus {
   background-color: var(--buttom-second-color);
 }
 .icons {
-  display: flex;
-  justify-content: center;
   fill: var(--text-sekond-color);
-  background-position: center;
-  background-size: contain;
-  background-repeat: no-repeat;
-  align-items: center;
   width: 20px;
   height: 20px;
 }
-.icons:hover {
+.icons:hover,
+.icons:focus {
   fill: var(--background);
-}
-.soshial-links-img:hover {
-  cursor: pointer;
-  background-color: var(--buttom-second-color);
 }
 
 /* KLIENTS */
