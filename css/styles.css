@@ -219,18 +219,17 @@ a {
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
+
+/* Особенности работы */
+
 .feature {
+  display: flex;
+  justify-content: center;
   padding: 25px 0;
   margin-bottom: 30px;
   background-color: var(--background-second-color);
   border-radius: 4px;
 }
-.feature-img {
-  margin-left: auto;
-  margin-right: auto;
-  width: 70px;
-}
-
 .fors {
   display: flex;
 }
@@ -260,6 +259,9 @@ a {
   color: var(--text-sekond-color);
   margin: 0;
 }
+
+/* Три картинки */
+
 .work {
   padding-top: 0px;
 }
