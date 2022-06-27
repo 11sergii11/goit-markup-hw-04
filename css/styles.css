@@ -108,7 +108,6 @@ a {
 .heder-contacts {
   display: flex;
 }
-
 .heder-contacts a {
   font-family: 'Roboto';
   font-style: normal;
@@ -116,42 +115,20 @@ a {
   letter-spacing: 0.02em;
   color: var(--text-sekond-color);
 }
-.heder-contacts a:hover {
+.tel:hover, .i:hover, .mail:hover {
+  fill: var(--main-brand-color);
   color: var(--main-brand-color);
 }
 .heder-contacts-link + .heder-contacts-link {
   margin-left: 50px;
 }
-.tel::before {
-  content: '';
-  /* display: inline-block; */
-  display: inline-flex;
-  justify-content: center;
-  /* align-items: center; */
-  width: 10px;
-  height: 16px;
-  margin-right: 6px;
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-image: url(../images/smartphone.svg);
+.heder-contacts-link{
+  display: flex;
+  align-items: center;
 }
-
-.tel:hover::before {
-  background-color: #2196f3;
-}
-.mail::before {
-  content: '';
-  display: inline-flex;
-  width: 16px;
-  height: 12px;
-  margin-right: 6px;
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-image: url(../images/envelope.svg);
-}
-.mail:hover::before {
-  fill: #188ce8;
-  background-color: #2196f3;
+.i{
+  fill: var(--text-sekond-color);
+  margin-right: 10px;
 }
 
 .market {
