@@ -115,18 +115,20 @@ a {
   letter-spacing: 0.02em;
   color: var(--text-sekond-color);
 }
-.tel:hover, .i:hover, .mail:hover {
+.tel:hover,
+.i:hover,
+.mail:hover {
   fill: var(--main-brand-color);
   color: var(--main-brand-color);
 }
 .heder-contacts-link + .heder-contacts-link {
   margin-left: 50px;
 }
-.heder-contacts-link{
+.heder-contacts-link {
   display: flex;
   align-items: center;
 }
-.i{
+.i {
   fill: var(--text-sekond-color);
   margin-right: 10px;
 }
@@ -140,11 +142,13 @@ a {
   display: flex;
   margin-left: auto;
   margin-right: auto;
-  background-image: url(../images/img\ overlay.svg), url(../images/idias\ for\ bisenes.jpg);
+  background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+    url(../images/idias\ for\ bisenes.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
   max-width: 1600px;
+  max-height: 600px;
 }
 
 .solution {
@@ -327,7 +331,7 @@ a {
 }
 .soshial-links-img {
   margin-right: 10px;
- }
+}
 .soshial-links-img:last-child {
   margin-right: 0px;
 }
@@ -456,23 +460,18 @@ a {
   font-style: normal;
   font-weight: 700;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #ffffff;
 }
-.footer-soc-item {
+.footer-soc-link {
+  display: flex;
   width: 44px;
   height: 44px;
   justify-content: center;
   align-items: center;
-}
-.footer-soc-link {
-  display: flex;
-  width: 100%;
-  height: 100%;
   border-radius: 50%;
-
   background: rgba(255, 255, 255, 0.1);
   /* transition-property: background-color; */
   /* transition-duration: 250ms; */
@@ -482,24 +481,19 @@ a {
 .footer-soc-link:focus {
   background-color: var(--buttom-second-color);
 }
-
 .footer-soc-list {
   display: flex;
   margin-left: auto;
 }
-
 .footer-soc-list .footer-soc-item + .footer-soc-item {
   margin-left: 10px;
 }
 .footer-icon {
-  fill: #ffffff;
-  background-position: center;
-  background-size: contain;
-  background-repeat: no-repeat;
-  align-items: center;
+  fill: var(--background);
 }
 
-/*  */
+/* Кнопки портфолио */
+
 .buttom-unit {
   margin-top: 94px;
   margin-bottom: 50px;
