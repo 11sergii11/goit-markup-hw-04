@@ -389,6 +389,8 @@ margin-right: 0px;
   background-color: var(--buttom-second-color);
 }
 
+/* KLIENTS */
+
 .klients-list {
   display: flex;
   justify-content: center;
@@ -396,21 +398,10 @@ margin-right: 0px;
   margin-right: auto;
 }
 .klients {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 170px;
-  height: 92px;
   margin-right: 30px;
-  background-color: var(--background-second-color);
-  border: 1px solid #afb1b8;
-  border-radius: 4px;
 }
 .klients:last-child {
   margin-right: 0px;
-}
-.klients:hover {
-  border: 1px solid var(--buttom-second-color);
 }
 .client-icon {
   fill: #afb1b8;
@@ -422,7 +413,16 @@ margin-right: 0px;
   display: flex;
   justify-content: center;
   align-items: center;
+  width: 170px;
+  height: 92px;
+  background-color: var(--background-second-color);
+  border: 1px solid #afb1b8;
+  border-radius: 4px;
 }
+.item-client-link:hover {
+  border: 1px solid var(--buttom-second-color);
+}
+/* FOTER */
 
 .grafit {
   background-color: var(--text-main-color);
