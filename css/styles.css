@@ -156,7 +156,7 @@ a {
   background-position: center;
   background-size: cover;
   max-width: 1600px;
-  max-height: 600px;
+  height: 600px;
 }
 
 .solution {
@@ -262,7 +262,6 @@ a {
   font-size: 36px;
   line-height: 1.16;
   text-align: center;
-  letter-spacing: 0.03em;
   color: var(--sekond-brand-color);
   margin-bottom: 50px;
 }
@@ -373,7 +372,6 @@ a {
   height: 44px;
   border-radius: 50%;
   color: var(--icons-first-color);
-  background-color: var(--main-body-color);
 }
 
 .links-img:hover,
@@ -419,9 +417,9 @@ a {
   border: 1px solid var(--icons-first-color);
   border-radius: 4px;
 }
-.item-client-link:hover {
+.item-client-link:hover, .item-client-link:focus {
   color: var(--main-brand-color);
-  border: 1px solid var(--main-brand-color);
+  border-color: var(--main-brand-color);
 }
 .client-icon {
   fill: currentColor;
@@ -591,10 +589,11 @@ a {
   margin-top: var(--card-projects-gap);
 }
 .job-project:hover,
-.job-project:focus {
+.projekt-link:focus {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
     1px 4px 6px rgba(0, 0, 0, 0.16);
 }
+
 .projekt-link:hover .projekt-text {
   transform: translateY(0);
 }
